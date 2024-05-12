@@ -1,28 +1,29 @@
-const fs = require('fs')
-const chalk = require('chalk')
+const fs = require("fs");
+const chalk = require("chalk");
 
 // TOKEN BOT TELEGRAM
-global.token = ["6099209702:AAHTdqC6d9OUiJMXs_CnTDsJ9-jsTPmMvOM"]
+global.token = ["6099209702:AAHTdqC6d9OUiJMXs_CnTDsJ9-jsTPmMvOM"];
 // BOTNAME
-global.botname = 'JurigBOT'
+global.botname = "JurigBOT";
 
 //APIKEY XCODERS
-global.xcoders = 'pxp7YYCE7D8J9pU'
+global.xcoders = "pxp7YYCE7D8J9pU";
 
-//APIKET RSNCHAT 
-global.rsnchat = 'rsnai_65hummaIA8Pl4EeOyPLZf0iW'
+//APIKET RSNCHAT
+global.rsnchat = "rsnai_65hummaIA8Pl4EeOyPLZf0iW";
 
-//MONGODBURL 
-global.MONGODB_URI = 'mongodb+srv://muhamadhaisyamkhairizmi:<password>@bot-tele.memphkh.mongodb.net/?retryWrites=true&w=majority&appName=Bot-Tele'
+//MONGODBURL
+global.MONGODB_URI =
+  "mongodb+srv://muhamadhaisyamkhairizmi:wanasalam@bot-tele.memphkh.mongodb.net/?retryWrites=true&w=majority&appName=Bot-Tele";
 
-//OTHER 
-global.owner = 'JurigVPN'
-global.wait = '⏳ Mohon tunggu sebentar'
+//OTHER
+global.owner = "JurigVPN";
+global.wait = "⏳ Mohon tunggu sebentar";
 
-let file = require.resolve(__filename)
+let file = require.resolve(__filename);
 fs.watchFile(file, () => {
-	fs.unwatchFile(file)
-	console.log(chalk.redBright(`Update'${__filename}'`))
-	delete require.cache[file]
-	require(file)
-})
+  fs.unwatchFile(file);
+  console.log(chalk.redBright(`Update'${__filename}'`));
+  delete require.cache[file];
+  require(file);
+});
