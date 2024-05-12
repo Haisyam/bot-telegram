@@ -13,7 +13,7 @@ global.xcoders = 'pxp7YYCE7D8J9pU'
 global.rsnchat = 'rsnai_65hummaIA8Pl4EeOyPLZf0iW'
 
 //MONGODBURL 
-global.MONGODB_URI = 'mongodb+srv://nuxysapi:lelang18@cluster0.cmvqrmm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+global.MONGODB_URI = 'mongodb+srv://muhamadhaisyamkhairizmi:<password>@bot-tele.memphkh.mongodb.net/?retryWrites=true&w=majority&appName=Bot-Tele'
 
 //OTHER 
 global.owner = 'JurigVPN'
